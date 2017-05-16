@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>主页</title>
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link rel="stylesheet" type="text/css" href="../css/home.css" />
+</head>
+<body>
+	<header id="head">
+		<a href="homepage.html"></a>
+		<div>
+			<ul>
+				<li><a href="signup.html" target="_blank">注册</a></li>
+				<li><a href="login.html">登录</a></li>
+			</ul>
+			<nav role="navigation">
+				<ul>
+					<li><a class="thisNav" href="homepage.html">首页</a></li>
+					<li><a href="programming.html">编程</a>
+						<ul>
+							<li><a href="">HTML</a></li>
+							<li><a href="">CSS</a></li>
+							<li><a href="">JS</a></li>
+							<li><a href="">单词</a></li>
+						</ul>
+					</li>
+					<li><a href="health.html">健康</a>
+						<ul>
+							<li><a href="">运动</a></li>
+							<li><a href="">餐饮</a></li>
+							<li><a href="">医药</a></li>
+						</ul>
+					</li>
+					<li><a href="plan.html">计划</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="body">
+		<aside>
+			<!--次级导航-->
+			<nav>
+				<ul>
+					<li><a href="homepage.html">首页</a></li>
+					<li><a href="programming.html">编程</a></li>
+					<li><a href="health.html">健康</a></li>
+					<li><a href="plan.html">计划</a></li>
+				</ul>
+			</nav>
+		</aside>
+		<main>
+			<h1>信息</h1>
+			<ul>
+				<li>联系方式：<a href="mailto:htlbvd@gmail.com">Gmail</a> <a href="https://github.com/htlovo" target="_blank">GitHub</a></li>
+				<li>
+					<ul>
+						<li><a href="../gobang/index.html">五子棋</a></li>
+						<li><a href="../cn-chess/index.html">中国象棋</a></li>
+						<li><a href="../docs/css总结/css-secrets.html">css-secrets.html</a>
+					</ul>
+				</li></li>
+			</ul>
+			<section class="programming">
+			<h2>编程</h2>
+			<ul>
+				<li><a href="programming/css层叠.html">css层叠</a></li>
+				<li></li>
+				<li></li>
+			</ul>
+			</section>
+			<section class="health">
+			<h2>健康</h2>
+			<ul>
+				<li><a href="health/10个跑完小动作.html">10个跑完小动作</a></li>
+				<li><a href="health/仙人揉腹.html">仙人揉腹</a></li>
+				<li></li>
+			</ul>
+			</section>
+			<section class="plan">
+			<h2>计划</h2>
+			<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			</section>
+		</main>
+	</div>
+	<!--==开始页面级页脚==-->
+	<footer id="foot" role="contentinfo">
+		<a href="homepage.html">首页</a>
+	</footer>
+	<!--固定定位-->
+	<div title="跳转" class="square">
+	<ul>
+		<li><a href="homepage.html">首页</a></li>
+		<li><a href="programming.html">编程</a>
+			<ul>
+				<li><a href="">HTML</a></li>
+				<li><a href="">CSS</a></li>
+				<li><a href="">JS</a></li>
+				<li><a href="">单词</a></li>
+			</ul>
+		</li>
+		<li><a href="health.html">健康</a>
+			<ul>
+				<li><a href="">运动</a></li>
+				<li><a href="">餐饮</a></li>
+				<li><a href="">医药</a></li>
+			</ul>
+		</li>
+		<li><a href="plan.html">计划</a></li>
+	</ul>
+	</div>
+	<a title="首页" class="circle" href="homepage.html"></a>
+	<a title="顶部" class="triangleTop" href="#head"></a>
+	<a title="底部" class="triangleBottom" href="#foot"></a>
+	<!--外部js文件，内部不能再有内容，type属性可省略-->
+	<script type="text/javascript" src="../homepage.js"></script>
+</body>
+</html>
